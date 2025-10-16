@@ -1,5 +1,75 @@
 
-const DICT={hr:{meta:{title:"MetalDesign Stepenice – Izrada po mjeri",desc:"MetalDesign Stepenice – izrada i montaža metalnih stepenica po mjeri u cijeloj Hrvatskoj. Kvaliteta, dizajn i preciznost."},'nav.work':'Naši radovi','nav.services':'Usluge','nav.process':'Proces','nav.contact':'Kontakt','badge':'Ručna izrada • Brza isporuka • Garancija kvalitete','hero.title':'Izrada metalnih stepenica po mjeri','hero.sub':'Čelik, inox i kombinacije sa drvom i staklom. Precizna izrada i moderni izgled — prilagođeno vašem prostoru.','cta.quote':'Zatražite besplatnu ponudu','cta.view':'Pogledajte radove','works.title':'Naši radovi','works.txt':'Unutarnje i vanjske stepenice, ravne i spiralne — čelik + drvo/staklo.','services.title':'Usluge','srv.1':'Metalne stepenice (ravne i spiralne)','srv.2':'Izrada po nacrtu i mjerenje na licu mjesta','srv.3':'Montaža i završna obrada (prašno lakiranje / inox)','srv.4':'Garancija na konstrukciju','process.title':'Kako radimo','step.1':'Upit i fotografija prostora','step.2':'Mjerenje i dogovor detalja','step.3':'Izrada u radionici','step.4':'Montaža i garancija','contact.title':'Kontakt','contact.role':'majstor, izrada i montaža'},en:{meta:{title:"MetalDesign Stairs – Custom Fabrication",desc:"Custom steel & stainless staircases across Croatia. Precision, design and quality installation."},'nav.work':'Projects','nav.services':'Services','nav.process':'Process','nav.contact':'Contact','badge':'Hand-crafted • Fast delivery • Quality guarantee','hero.title':'Custom metal staircases','hero.sub':'Steel, stainless and combinations with wood or glass. Precise fabrication and modern look — tailored to your space.','cta.quote':'Request a free quote','cta.view':'See projects','works.title':'Our Work','works.txt':'Indoor/outdoor stairs — straight or spiral, steel + wood/glass.','services.title':'Services','srv.1':'Metal staircases (straight & spiral)','srv.2':'Made to drawing + on-site measuring','srv.3':'Installation & finishing (powder coat / stainless)','srv.4':'Structural warranty','process.title':'How we work','step.1':'Inquiry & space photo','step.2':'Measuring & details','step.3':'Workshop fabrication','step.4':'Installation & warranty','contact.title':'Contact','contact.role':'craftsman — fabrication & install'},uk:{meta:{title:"MetalDesign Сходи – Виготовлення на замовлення",desc:"Металеві сходи по всій Хорватії: дизайн, виготовлення та монтаж. Якість, точність і сучасний стиль."},'nav.work':'Наші роботи','nav.services':'Послуги','nav.process':'Процес','nav.contact':'Контакти','badge':'Ручне виготовлення • Швидко • Гарантія якості','hero.title':'Металеві сходи на замовлення','hero.sub':'Сталь, нержавійка та комбінації з деревом/склом. Точне виготовлення і сучасний вигляд — під ваш простір.','cta.quote':'Отримати прорахунок','cta.view':'Переглянути роботи','works.title':'Наші роботи','works.txt':'Внутрішні та зовнішні сходи — прямі або гвинтові, сталь + дерево/скло.','services.title':'Послуги','srv.1':'Металеві сходи (прямі та гвинтові)','srv.2':'Виготовлення за кресленням + заміри на об’єкті','srv.3':'Монтаж і фініш (порошк. фарба / нержавійка)','srv.4':'Гарантія на конструкцію','process.title':'Як ми працюємо','step.1':'Запит і фото простору','step.2':'Замір та узгодження','step.3':'Виготовлення у майстерні','step.4':'Монтаж і гарантія','contact.title':'Контакти','contact.role':'майстер — виготовлення та монтаж'}};
+const DICT={
+  hr:{
+    meta:{title:"MetalDesign Stepenice – Izrada po mjeri",desc:"MetalDesign Stepenice – izrada i montaža metalnih stepenica po mjeri u cijeloj Hrvatskoj. Kvaliteta, dizajn i precizност."},
+    'nav.work':'Naši radovi','nav.services':'Usluge','nav.process':'Proces','nav.contact':'Kontakt','nav.solutions':'Naša rješenja',
+    'badge':'Ručna izrada • Brza isporuka • Garancija kvalitete',
+    'hero.title':'Izrada metalnih stepenica po mjeri',
+    'hero.sub':'Čelik, inox i kombinacije sa drvom i staklom. Precizna izrada i moderni izgled — prilagođeno vašem prostoru.',
+    'cta.quote':'Zatražite besplatnu ponudu','cta.view':'Pogledajte radove',
+    'solutions.title':'Naša rješenja',
+    'sol.p1':'– Ravne stepenice — funkcionalne i čistog dizajna.',
+    'sol.p2':'– Kutne / 90° — praktične za manji prostor ili složen tlocrt.',
+    'sol.p3':'– Spiralne — štede prostor i daju interijeru poseban šarm.',
+    'sol.p4':'Ekologija: drvo je prirodan, zdravlju siguran materijal.',
+    'sol.p5':'Čvrstoća: uz pravilnu obradu i njegu služi godinama.',
+    'sol.p6':'Opterećenje: drvo je lakše pa manje opterećuje nosive zidove.',
+    'sol.p7':'Toplina: ugodno za bosonogo hodanje, zadržava toplinu.',
+    'sol.p8':'Dizajn: toplina i prirodnost, lako se oblikuje u razne konfiguracije.',
+    'sol.p9':'Staklene ograde donose eleganciju, modernost i više svjetla.',
+    'works.title':'Naši radovi','works.txt':'Unutarnje i vanjske stepenice, ravne i spiralne — čelik + drvo/staklo.',
+    'services.title':'Usluge','srv.1':'Metalne stepenice (ravne i spiralne)','srv.2':'Izrada po nacrtu i mjerenje na licu mjesta','srv.3':'Montaža i završna obrada (prašno lakiranje / inox)','srv.4':'Garancija na konstrukciju',
+    'process.title':'Kako radimo','step.1':'Upit i fotografija prostora','step.2':'Mjerenje i dogovor detalja','step.3':'Izrada u radionici','step.4':'Montaža i garancija',
+    'contact.title':'Kontakt','contact.role':'majstor, izrada i montaža',
+    'search.placeholder':'Pretraga radova...','search.button':'Traži'
+  },
+  en:{
+    meta:{title:"MetalDesign Stairs – Custom Fabrication",desc:"Custom steel & stainless staircases across Croatia. Precision, design and quality installation."},
+    'nav.work':'Projects','nav.services':'Services','nav.process':'Process','nav.contact':'Contact','nav.solutions':'Our Solutions',
+    'badge':'Hand-crafted • Fast delivery • Quality guarantee',
+    'hero.title':'Custom metal staircases',
+    'hero.sub':'Steel, stainless and combinations with wood or glass. Precision-made for your space.',
+    'cta.quote':'Request a free quote','cta.view':'See projects',
+    'solutions.title':'Our Solutions',
+    'sol.p1':'– Straight stairs — functional and minimal design.',
+    'sol.p2':'– Corner / 90° — practical for compact spaces or complex layouts.',
+    'sol.p3':'– Spiral stairs — space-saving with a refined, unique look.',
+    'sol.p4':'Eco: wood is a natural, health‑safe material.',
+    'sol.p5':'Strength: with proper treatment, wooden stairs last for years.',
+    'sol.p6':'Load: wood is lighter, so it reduces stress on walls/structure.',
+    'sol.p7':'Warmth: pleasant barefoot — wood retains heat.',
+    'sol.p8':'Design: warm, natural texture; easy to shape into various forms.',
+    'sol.p9':'Glass railings add elegance, modernity and more light.',
+    'works.title':'Our Work','works.txt':'Indoor/outdoor stairs — straight or spiral, steel + wood/glass.',
+    'services.title':'Services','srv.1':'Metal staircases (straight & spiral)','srv.2':'Made to drawing + on-site measuring','srv.3':'Installation & finishing (powder coat / stainless)','srv.4':'Structural warranty',
+    'process.title':'How we work','step.1':'Inquiry & space photo','step.2':'Measuring & details','step.3':'Workshop fabrication','step.4':'Installation & warranty',
+    'contact.title':'Contact','contact.role':'craftsman — fabrication & install',
+    'search.placeholder':'Search projects...','search.button':'Search'
+  },
+  uk:{
+    meta:{title:"MetalDesign Сходи – Виготовлення на замовлення",desc:"Металеві сходи по всій Хорватії: дизайн, виготовлення та монтаж. Якість, точність і сучасний стиль."},
+    'nav.work':'Наші роботи','nav.services':'Послуги','nav.process':'Процес','nav.contact':'Контакти','nav.solutions':'Наші Рішення',
+    'badge':'Ручне виготовлення • Швидко • Гарантія якості',
+    'hero.title':'Металеві сходи на замовлення',
+    'hero.sub':'Сталь, нержавійка та комбінації з деревом/склом. Точне виготовлення і сучасний вигляд — під ваш простір.',
+    'cta.quote':'Отримати прорахунок','cta.view':'Переглянути роботи',
+    'solutions.title':'Наші Рішення',
+    'sol.p1':'– Прямі сходи — функціональні та лаконічні.',
+    'sol.p2':'– Кутові або 90° — зручні для обмеженого простору чи складного планування.',
+    'sol.p3':'– Гвинтові сходи — економлять місце та мають витончений вигляд.',
+    'sol.p4':'Екологічність: дерево — натуральний, безпечний матеріал.',
+    'sol.p5':'Міцність: за правильного догляду служить роками.',
+    'sol.p6':'Навантаження: менша вага — менше навантаження на стіни/каркас.',
+    'sol.p7':'Тепло: по дереву приємно ходити босоніж, воно зберігає тепло.',
+    'sol.p8':'Дизайн: тепло, затишок і природність; легко піддається обробці.',
+    'sol.p9':'Скляні поручні — елегантність, сучасність і більше світла.',
+    'works.title':'Наші роботи','works.txt':'Внутрішні та зовнішні сходи — прямі або гвинтові, сталь + дерево/скло.',
+    'services.title':'Послуги','srv.1':'Металеві сходи (прямі та гвинтові)','srv.2':'Виготовлення за кресленням + заміри на об’єкті','srv.3':'Монтаж і фініш (порошк. фарба / нержавійка)','srv.4':'Гарантія на конструкцію',
+    'process.title':'Як ми працюємо','step.1':'Запит і фото простору','step.2':'Замір та узгодження','step.3':'Виготовлення у майстерні','step.4':'Монтаж і гарантія',
+    'contact.title':'Контакти','contact.role':'майстер — виготовлення та монтаж',
+    'search.placeholder':'Пошук робіт...','search.button':'Шукати'
+  }
+};
 function setMetaForLang(lang){const d=DICT[lang]?.meta||DICT.hr.meta;document.title=d.title;const md=document.querySelector('meta[name="description"]');if(md) md.setAttribute('content',d.desc);document.documentElement.setAttribute('lang',lang);}
-function applyLang(lang){document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.getAttribute('data-i18n');if(DICT[lang]&&DICT[lang][k]) el.textContent=DICT[lang][k];});setMetaForLang(lang);localStorage.setItem('site_lang',lang);const url=new URL(location.href);url.searchParams.set('lang',lang);history.replaceState(null,'',url.toString());}
+function applyLang(lang){document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.getAttribute('data-i18n');if(DICT[lang]&&DICT[lang][k]) el.textContent=DICT[lang][k];});setMetaForLang(lang);localStorage.setItem('site_lang',lang);const url=new URL(location.href);url.searchParams.set('lang',lang);history.replaceState(null,'',url.toString());const s=document.querySelector('#site-search input[name=\"q\"]');if(s){s.placeholder=DICT[lang]['search.placeholder']||s.placeholder;const b=document.querySelector('#site-search button');if(b) b.textContent=DICT[lang]['search.button']||b.textContent;}};
 window.addEventListener('DOMContentLoaded',()=>{const sel=document.getElementById('lang');const param=new URLSearchParams(location.search).get('lang');const saved=localStorage.getItem('site_lang')||'hr';const start=(param&&DICT[param])?param:saved;if(sel){sel.value=start;sel.addEventListener('change',()=>applyLang(sel.value));}applyLang(start);});

@@ -1,2 +1,2 @@
-MetalDesign v3.5 (Schema.org + Breadcrumbs)
+MetalDesign v3.8 (Solutions moved above Works; GA note fixed)
 Created 2025-10-16

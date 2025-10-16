@@ -1,1 +1,1 @@
-Upload images/1..12.jpg next to index.html. JSON-LD added for LocalBusiness and BreadcrumbList.
+Place images/1..12.jpg next to index.html. Solutions section is now above Works. GA snippet note updated for Vercel.

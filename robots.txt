@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://willowy-praline-c2633c.netlify.app/sitemap.xml
+Sitemap: https://metaldesign.vercel.app/sitemap.xml
