@@ -1,7 +1,7 @@
 
 const DICT={
   hr:{
-    meta:{title:"MetalDesign Stepenice – Izrada po mjeri",desc:"MetalDesign Stepenice – izrada i montaža metalnih stepenica po mjeri u cijeloj Hrvatskoj. Kvaliteta, dizajn i precizност."},
+    meta:{title:"MetalDesign Stepenice – Izrada po mjeri",desc:"MetalDesign Stepenice – izrada i montaža metalnih stepenica po mjeri u cijeloj Hrvatskoj. Kvaliteta, dizajn i preciznost."},
     'nav.work':'Naši radovi','nav.services':'Usluge','nav.process':'Proces','nav.contact':'Kontakt','nav.solutions':'Naša rješenja',
     'badge':'Ručna izrada • Brza isporuka • Garancija kvalitete',
     'hero.title':'Izrada metalnih stepenica po mjeri',

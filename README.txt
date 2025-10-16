@@ -1,1 +1,1 @@
-Place images/1..12.jpg next to index.html. Solutions section is now above Works. GA snippet note updated for Vercel.
+Upload images/1..12.jpg next to index.html. GA4 enabled with send_page_view:false and initial page_view.

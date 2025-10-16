@@ -1,2 +1,2 @@
-MetalDesign v3.8 (Solutions moved above Works; GA note fixed)
+MetalDesign v3.9 (GA4 active; solutions above works)
 Created 2025-10-16
