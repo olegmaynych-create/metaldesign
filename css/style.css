@@ -30,3 +30,12 @@ body.captions-hover .g figcaption{display:none}body.captions-static .g .overlay-
 #toTop.show{display:flex}
 @media (max-width:960px){.grid2{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.gallery{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.heroimg{max-height:48vh}body.captions-hover .g .overlay-cap{opacity:1;transform:none;background:linear-gradient(to top,rgba(0,0,0,.65),rgba(0,0,0,.30))}}
+
+/* Lightbox */
+#lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;z-index:1000;padding:20px}
+#lightbox.open{display:flex}
+#lightbox img{max-width:100%;max-height:100%;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+#lightbox .close{position:absolute;top:14px;right:14px;background:transparent;border:0;color:#fff;font-size:36px;cursor:pointer;line-height:1}
+#lightbox .nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.12);border:0;color:#fff;font-size:36px;width:48px;height:64px;border-radius:10px;cursor:pointer}
+#lightbox .prev{left:16px}
+#lightbox .next{right:16px}
