@@ -1,0 +1,1 @@
+Upload images/1..12.jpg next to index.html. JSON-LD added for LocalBusiness and BreadcrumbList.
